@@ -1,0 +1,137 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5 {
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+
+h1 {
+    text-align: center;
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 22px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+h5 {
+    font-size: 16px;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+ol {
+    list-style-type: decimal;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    max-width: 100%;
+    height: auto;
+}
+
+hr {
+    border: 1px solid #ccc;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.page {
+    max-width: 21cm; /* Tamanho A4 */
+    margin: 0 auto;
+    padding: 2cm;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos de página */
+@page {
+    size: A4;
+    margin: 2cm;
+}
+
+#sumario {
+    font-family: Arial, sans-serif;
+    width: 300px; /* Ajuste a largura conforme necessário */
+    margin: 20px auto; /* Centraliza o sumário na página */
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+#sumario h1 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    text-align: center;
+    color: #333;
+}
+
+#sumario ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#sumario ul li {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#sumario ul li a {
+    text-decoration: none;
+    color: #007bff;
+    transition: color 0.3s ease;
+}
+
+#sumario ul li a:hover {
+    color: #0056b3;
+}
+
+#sumario ul ul {
+    margin-left: 20px;
+}
+
